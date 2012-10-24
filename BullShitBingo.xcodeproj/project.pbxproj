@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105B64971636D5A6009201A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B646C1636D5A6009201A8 /* AppDelegate.m */; };
+		105B64981636D5A6009201A8 /* BullShitBingo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 105B646D1636D5A6009201A8 /* BullShitBingo-Info.plist */; };
+		105B64991636D5A6009201A8 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64711636D5A6009201A8 /* CardViewController.m */; };
+		105B649A1636D5A6009201A8 /* GameTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64731636D5A6009201A8 /* GameTypeViewController.m */; };
+		105B649B1636D5A6009201A8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64751636D5A6009201A8 /* GameViewController.m */; };
+		105B649D1636D5A6009201A8 /* SelectCardSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64791636D5A6009201A8 /* SelectCardSizeViewController.m */; };
+		105B649E1636D5A6009201A8 /* StartMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B647B1636D5A6009201A8 /* StartMenuViewController.m */; };
+		105B649F1636D5A6009201A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 105B647C1636D5A6009201A8 /* InfoPlist.strings */; };
+		105B64A01636D5A6009201A8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B647E1636D5A6009201A8 /* MainStoryboard_iPad.storyboard */; };
+		105B64A11636D5A6009201A8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B64801636D5A6009201A8 /* MainStoryboard_iPhone.storyboard */; };
+		105B64A21636D5A6009201A8 /* UikitFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64841636D5A6009201A8 /* UikitFramework.m */; };
+		105B64A31636D5A6009201A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64851636D5A6009201A8 /* main.m */; };
+		105B64A41636D5A6009201A8 /* MyDocumentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64881636D5A6009201A8 /* MyDocumentHandler.m */; };
+		105B64A51636D5A6009201A8 /* Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B648A1636D5A6009201A8 /* Seed.m */; };
+		105B64A61636D5A6009201A8 /* Theme+Manage.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B648C1636D5A6009201A8 /* Theme+Manage.m */; };
+		105B64A71636D5A6009201A8 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B648E1636D5A6009201A8 /* Theme.m */; };
+		105B64A81636D5A6009201A8 /* Word+Manage.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64901636D5A6009201A8 /* Word+Manage.m */; };
+		105B64A91636D5A6009201A8 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64921636D5A6009201A8 /* Word.m */; };
+		105B64AA1636D5A6009201A8 /* btn_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 105B64951636D5A6009201A8 /* btn_green@2x.png */; };
+		105B64AE1636D8DF009201A8 /* MainLeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64AD1636D8DF009201A8 /* MainLeftTableViewController.m */; };
+		105B64B21636DEF7009201A8 /* InicialContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64B11636DEF7009201A8 /* InicialContainerViewController.m */; };
+		105B64BB1636E09D009201A8 /* GameFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64BA1636E09D009201A8 /* GameFlowViewController.m */; };
+		105B64BF1636EC30009201A8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64BE1636EC30009201A8 /* ProfileViewController.m */; };
+		105B64C11636ECB1009201A8 /* images-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 105B64C01636ECB1009201A8 /* images-10.jpeg */; };
+		105B64C41636ED41009201A8 /* ProfileNavigarionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64C31636ED40009201A8 /* ProfileNavigarionViewController.m */; };
+		105B64C71636EDE3009201A8 /* ViewControllersAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64C61636EDE3009201A8 /* ViewControllersAnimations.m */; };
+		105B64D51636FACA009201A8 /* FindFriendsNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64D41636FACA009201A8 /* FindFriendsNavigationViewController.m */; };
+		105B64D81636FB02009201A8 /* FindFriendsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 105B64D71636FB02009201A8 /* FindFriendsTableViewController.m */; };
+		108B45AD15FF3C8500AB249D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108B45AC15FF3C8500AB249D /* UIKit.framework */; };
+		108B45AF15FF3C8500AB249D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108B45AE15FF3C8500AB249D /* Foundation.framework */; };
+		108B45B115FF3C8500AB249D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108B45B015FF3C8500AB249D /* CoreGraphics.framework */; };
+		108B45CD15FF3CB500AB249D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108B45CC15FF3CB500AB249D /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		105B646B1636D5A6009201A8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		105B646C1636D5A6009201A8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		105B646D1636D5A6009201A8 /* BullShitBingo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BullShitBingo-Info.plist"; sourceTree = "<group>"; };
+		105B646E1636D5A6009201A8 /* BullShitBingo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BullShitBingo-Prefix.pch"; sourceTree = "<group>"; };
+		105B64701636D5A6009201A8 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		105B64711636D5A6009201A8 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		105B64721636D5A6009201A8 /* GameTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTypeViewController.h; sourceTree = "<group>"; };
+		105B64731636D5A6009201A8 /* GameTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTypeViewController.m; sourceTree = "<group>"; };
+		105B64741636D5A6009201A8 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		105B64751636D5A6009201A8 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		105B64781636D5A6009201A8 /* SelectCardSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCardSizeViewController.h; sourceTree = "<group>"; };
+		105B64791636D5A6009201A8 /* SelectCardSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCardSizeViewController.m; sourceTree = "<group>"; };
+		105B647A1636D5A6009201A8 /* StartMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMenuViewController.h; sourceTree = "<group>"; };
+		105B647B1636D5A6009201A8 /* StartMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartMenuViewController.m; sourceTree = "<group>"; };
+		105B647D1636D5A6009201A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		105B647F1636D5A6009201A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		105B64811636D5A6009201A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		105B64831636D5A6009201A8 /* UikitFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UikitFramework.h; sourceTree = "<group>"; };
+		105B64841636D5A6009201A8 /* UikitFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UikitFramework.m; sourceTree = "<group>"; };
+		105B64851636D5A6009201A8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		105B64871636D5A6009201A8 /* MyDocumentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocumentHandler.h; sourceTree = "<group>"; };
+		105B64881636D5A6009201A8 /* MyDocumentHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDocumentHandler.m; sourceTree = "<group>"; };
+		105B64891636D5A6009201A8 /* Seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seed.h; sourceTree = "<group>"; };
+		105B648A1636D5A6009201A8 /* Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seed.m; sourceTree = "<group>"; };
+		105B648B1636D5A6009201A8 /* Theme+Manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Theme+Manage.h"; sourceTree = "<group>"; };
+		105B648C1636D5A6009201A8 /* Theme+Manage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Theme+Manage.m"; sourceTree = "<group>"; };
+		105B648D1636D5A6009201A8 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		105B648E1636D5A6009201A8 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		105B648F1636D5A6009201A8 /* Word+Manage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Word+Manage.h"; sourceTree = "<group>"; };
+		105B64901636D5A6009201A8 /* Word+Manage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Word+Manage.m"; sourceTree = "<group>"; };
+		105B64911636D5A6009201A8 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		105B64921636D5A6009201A8 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		105B64951636D5A6009201A8 /* btn_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_green@2x.png"; sourceTree = "<group>"; };
+		105B64AC1636D8DF009201A8 /* MainLeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainLeftTableViewController.h; sourceTree = "<group>"; };
+		105B64AD1636D8DF009201A8 /* MainLeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainLeftTableViewController.m; sourceTree = "<group>"; };
+		105B64B01636DEF7009201A8 /* InicialContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InicialContainerViewController.h; sourceTree = "<group>"; };
+		105B64B11636DEF7009201A8 /* InicialContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InicialContainerViewController.m; sourceTree = "<group>"; };
+		105B64B91636E09D009201A8 /* GameFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameFlowViewController.h; sourceTree = "<group>"; };
+		105B64BA1636E09D009201A8 /* GameFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameFlowViewController.m; sourceTree = "<group>"; };
+		105B64BC1636E136009201A8 /* ComunicationParentChildProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComunicationParentChildProtocol.h; sourceTree = "<group>"; };
+		105B64BD1636EC2F009201A8 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		105B64BE1636EC30009201A8 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		105B64C01636ECB1009201A8 /* images-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-10.jpeg"; sourceTree = "<group>"; };
+		105B64C21636ED40009201A8 /* ProfileNavigarionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileNavigarionViewController.h; sourceTree = "<group>"; };
+		105B64C31636ED40009201A8 /* ProfileNavigarionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileNavigarionViewController.m; sourceTree = "<group>"; };
+		105B64C51636EDE3009201A8 /* ViewControllersAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersAnimations.h; sourceTree = "<group>"; };
+		105B64C61636EDE3009201A8 /* ViewControllersAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersAnimations.m; sourceTree = "<group>"; };
+		105B64D31636FACA009201A8 /* FindFriendsNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFriendsNavigationViewController.h; sourceTree = "<group>"; };
+		105B64D41636FACA009201A8 /* FindFriendsNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFriendsNavigationViewController.m; sourceTree = "<group>"; };
+		105B64D61636FB02009201A8 /* FindFriendsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindFriendsTableViewController.h; sourceTree = "<group>"; };
+		105B64D71636FB02009201A8 /* FindFriendsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindFriendsTableViewController.m; sourceTree = "<group>"; };
+		108B45A815FF3C8500AB249D /* BullShitBingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullShitBingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		108B45AC15FF3C8500AB249D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		108B45AE15FF3C8500AB249D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		108B45B015FF3C8500AB249D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		108B45CC15FF3CB500AB249D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		108B45A515FF3C8500AB249D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108B45CD15FF3CB500AB249D /* CoreData.framework in Frameworks */,
+				108B45AD15FF3C8500AB249D /* UIKit.framework in Frameworks */,
+				108B45AF15FF3C8500AB249D /* Foundation.framework in Frameworks */,
+				108B45B115FF3C8500AB249D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105B646A1636D5A6009201A8 /* BullShitBingo */ = {
+			isa = PBXGroup;
+			children = (
+				105B64B31636DF35009201A8 /* protocols */,
+				105B646B1636D5A6009201A8 /* AppDelegate.h */,
+				105B646C1636D5A6009201A8 /* AppDelegate.m */,
+				105B646D1636D5A6009201A8 /* BullShitBingo-Info.plist */,
+				105B646E1636D5A6009201A8 /* BullShitBingo-Prefix.pch */,
+				105B646F1636D5A6009201A8 /* controllers */,
+				105B647C1636D5A6009201A8 /* InfoPlist.strings */,
+				105B647E1636D5A6009201A8 /* MainStoryboard_iPad.storyboard */,
+				105B64801636D5A6009201A8 /* MainStoryboard_iPhone.storyboard */,
+				105B64821636D5A6009201A8 /* helpers */,
+				105B64851636D5A6009201A8 /* main.m */,
+				105B64861636D5A6009201A8 /* models */,
+				105B64931636D5A6009201A8 /* resources */,
+				105B64961636D5A6009201A8 /* views */,
+			);
+			path = BullShitBingo;
+			sourceTree = "<group>";
+		};
+		105B646F1636D5A6009201A8 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				105B64B81636E07D009201A8 /* navigationCotrollers */,
+				105B64AF1636DD4C009201A8 /* containers */,
+				105B64AB1636D88C009201A8 /* tableViewControllers */,
+				105B64701636D5A6009201A8 /* CardViewController.h */,
+				105B64711636D5A6009201A8 /* CardViewController.m */,
+				105B64721636D5A6009201A8 /* GameTypeViewController.h */,
+				105B64731636D5A6009201A8 /* GameTypeViewController.m */,
+				105B64741636D5A6009201A8 /* GameViewController.h */,
+				105B64751636D5A6009201A8 /* GameViewController.m */,
+				105B647A1636D5A6009201A8 /* StartMenuViewController.h */,
+				105B647B1636D5A6009201A8 /* StartMenuViewController.m */,
+				105B64BD1636EC2F009201A8 /* ProfileViewController.h */,
+				105B64BE1636EC30009201A8 /* ProfileViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		105B64821636D5A6009201A8 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				105B64831636D5A6009201A8 /* UikitFramework.h */,
+				105B64841636D5A6009201A8 /* UikitFramework.m */,
+				105B64C51636EDE3009201A8 /* ViewControllersAnimations.h */,
+				105B64C61636EDE3009201A8 /* ViewControllersAnimations.m */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		105B64861636D5A6009201A8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				105B64871636D5A6009201A8 /* MyDocumentHandler.h */,
+				105B64881636D5A6009201A8 /* MyDocumentHandler.m */,
+				105B64891636D5A6009201A8 /* Seed.h */,
+				105B648A1636D5A6009201A8 /* Seed.m */,
+				105B648B1636D5A6009201A8 /* Theme+Manage.h */,
+				105B648C1636D5A6009201A8 /* Theme+Manage.m */,
+				105B648D1636D5A6009201A8 /* Theme.h */,
+				105B648E1636D5A6009201A8 /* Theme.m */,
+				105B648F1636D5A6009201A8 /* Word+Manage.h */,
+				105B64901636D5A6009201A8 /* Word+Manage.m */,
+				105B64911636D5A6009201A8 /* Word.h */,
+				105B64921636D5A6009201A8 /* Word.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		105B64931636D5A6009201A8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				105B64941636D5A6009201A8 /* icons */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		105B64941636D5A6009201A8 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				105B64C01636ECB1009201A8 /* images-10.jpeg */,
+				105B64951636D5A6009201A8 /* btn_green@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		105B64961636D5A6009201A8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		105B64AB1636D88C009201A8 /* tableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				105B64781636D5A6009201A8 /* SelectCardSizeViewController.h */,
+				105B64791636D5A6009201A8 /* SelectCardSizeViewController.m */,
+				105B64AC1636D8DF009201A8 /* MainLeftTableViewController.h */,
+				105B64AD1636D8DF009201A8 /* MainLeftTableViewController.m */,
+				105B64D61636FB02009201A8 /* FindFriendsTableViewController.h */,
+				105B64D71636FB02009201A8 /* FindFriendsTableViewController.m */,
+			);
+			name = tableViewControllers;
+			sourceTree = "<group>";
+		};
+		105B64AF1636DD4C009201A8 /* containers */ = {
+			isa = PBXGroup;
+			children = (
+				105B64B01636DEF7009201A8 /* InicialContainerViewController.h */,
+				105B64B11636DEF7009201A8 /* InicialContainerViewController.m */,
+			);
+			name = containers;
+			sourceTree = "<group>";
+		};
+		105B64B31636DF35009201A8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				105B64BC1636E136009201A8 /* ComunicationParentChildProtocol.h */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		105B64B81636E07D009201A8 /* navigationCotrollers */ = {
+			isa = PBXGroup;
+			children = (
+				105B64B91636E09D009201A8 /* GameFlowViewController.h */,
+				105B64BA1636E09D009201A8 /* GameFlowViewController.m */,
+				105B64C21636ED40009201A8 /* ProfileNavigarionViewController.h */,
+				105B64C31636ED40009201A8 /* ProfileNavigarionViewController.m */,
+				105B64D31636FACA009201A8 /* FindFriendsNavigationViewController.h */,
+				105B64D41636FACA009201A8 /* FindFriendsNavigationViewController.m */,
+			);
+			name = navigationCotrollers;
+			sourceTree = "<group>";
+		};
+		108B459D15FF3C8500AB249D = {
+			isa = PBXGroup;
+			children = (
+				105B646A1636D5A6009201A8 /* BullShitBingo */,
+				108B45AB15FF3C8500AB249D /* Frameworks */,
+				108B45A915FF3C8500AB249D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		108B45A915FF3C8500AB249D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108B45A815FF3C8500AB249D /* BullShitBingo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		108B45AB15FF3C8500AB249D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108B45CC15FF3CB500AB249D /* CoreData.framework */,
+				108B45AC15FF3C8500AB249D /* UIKit.framework */,
+				108B45AE15FF3C8500AB249D /* Foundation.framework */,
+				108B45B015FF3C8500AB249D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		108B45A715FF3C8500AB249D /* BullShitBingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108B45C915FF3C8600AB249D /* Build configuration list for PBXNativeTarget "BullShitBingo" */;
+			buildPhases = (
+				108B45A415FF3C8500AB249D /* Sources */,
+				108B45A515FF3C8500AB249D /* Frameworks */,
+				108B45A615FF3C8500AB249D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BullShitBingo;
+			productName = BullShitBingo;
+			productReference = 108B45A815FF3C8500AB249D /* BullShitBingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108B459F15FF3C8500AB249D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 108B45A215FF3C8500AB249D /* Build configuration list for PBXProject "BullShitBingo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 108B459D15FF3C8500AB249D;
+			productRefGroup = 108B45A915FF3C8500AB249D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				108B45A715FF3C8500AB249D /* BullShitBingo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108B45A615FF3C8500AB249D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B64981636D5A6009201A8 /* BullShitBingo-Info.plist in Resources */,
+				105B649F1636D5A6009201A8 /* InfoPlist.strings in Resources */,
+				105B64A01636D5A6009201A8 /* MainStoryboard_iPad.storyboard in Resources */,
+				105B64A11636D5A6009201A8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				105B64AA1636D5A6009201A8 /* btn_green@2x.png in Resources */,
+				105B64C11636ECB1009201A8 /* images-10.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108B45A415FF3C8500AB249D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B64971636D5A6009201A8 /* AppDelegate.m in Sources */,
+				105B64991636D5A6009201A8 /* CardViewController.m in Sources */,
+				105B649A1636D5A6009201A8 /* GameTypeViewController.m in Sources */,
+				105B649B1636D5A6009201A8 /* GameViewController.m in Sources */,
+				105B649D1636D5A6009201A8 /* SelectCardSizeViewController.m in Sources */,
+				105B649E1636D5A6009201A8 /* StartMenuViewController.m in Sources */,
+				105B64A21636D5A6009201A8 /* UikitFramework.m in Sources */,
+				105B64A31636D5A6009201A8 /* main.m in Sources */,
+				105B64A41636D5A6009201A8 /* MyDocumentHandler.m in Sources */,
+				105B64A51636D5A6009201A8 /* Seed.m in Sources */,
+				105B64A61636D5A6009201A8 /* Theme+Manage.m in Sources */,
+				105B64A71636D5A6009201A8 /* Theme.m in Sources */,
+				105B64A81636D5A6009201A8 /* Word+Manage.m in Sources */,
+				105B64A91636D5A6009201A8 /* Word.m in Sources */,
+				105B64AE1636D8DF009201A8 /* MainLeftTableViewController.m in Sources */,
+				105B64B21636DEF7009201A8 /* InicialContainerViewController.m in Sources */,
+				105B64BB1636E09D009201A8 /* GameFlowViewController.m in Sources */,
+				105B64BF1636EC30009201A8 /* ProfileViewController.m in Sources */,
+				105B64C41636ED41009201A8 /* ProfileNavigarionViewController.m in Sources */,
+				105B64C71636EDE3009201A8 /* ViewControllersAnimations.m in Sources */,
+				105B64D51636FACA009201A8 /* FindFriendsNavigationViewController.m in Sources */,
+				105B64D81636FB02009201A8 /* FindFriendsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		105B647C1636D5A6009201A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B647D1636D5A6009201A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		105B647E1636D5A6009201A8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B647F1636D5A6009201A8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		105B64801636D5A6009201A8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				105B64811636D5A6009201A8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		108B45C715FF3C8500AB249D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		108B45C815FF3C8600AB249D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		108B45CA15FF3C8600AB249D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BullShitBingo/BullShitBingo-Prefix.pch";
+				INFOPLIST_FILE = "BullShitBingo/BullShitBingo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		108B45CB15FF3C8600AB249D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BullShitBingo/BullShitBingo-Prefix.pch";
+				INFOPLIST_FILE = "BullShitBingo/BullShitBingo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108B45A215FF3C8500AB249D /* Build configuration list for PBXProject "BullShitBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108B45C715FF3C8500AB249D /* Debug */,
+				108B45C815FF3C8600AB249D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108B45C915FF3C8600AB249D /* Build configuration list for PBXNativeTarget "BullShitBingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108B45CA15FF3C8600AB249D /* Debug */,
+				108B45CB15FF3C8600AB249D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108B459F15FF3C8500AB249D /* Project object */;
+}
